@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b9218870.chunk.css",
+    "main.js": "/static/js/main.5a19e862.chunk.js",
+    "main.js.map": "/static/js/main.5a19e862.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8843214d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8843214d.js.map",
+    "static/css/2.ed1298f3.chunk.css": "/static/css/2.ed1298f3.chunk.css",
+    "static/js/2.5ac42070.chunk.js": "/static/js/2.5ac42070.chunk.js",
+    "static/js/2.5ac42070.chunk.js.map": "/static/js/2.5ac42070.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ed1298f3.chunk.css.map": "/static/css/2.ed1298f3.chunk.css.map",
+    "static/css/main.b9218870.chunk.css.map": "/static/css/main.b9218870.chunk.css.map",
+    "static/js/2.5ac42070.chunk.js.LICENSE.txt": "/static/js/2.5ac42070.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/GothamBook.58fb9151.ttf",
+    "static/media/connect.c74eca87.png": "/static/media/connect.c74eca87.png",
+    "static/media/materialdesignicons.css": "/static/media/materialdesignicons-webfont.e9db4005.woff2",
+    "static/media/slide1.530220ca.png": "/static/media/slide1.530220ca.png",
+    "static/media/slide2.9710c8aa.png": "/static/media/slide2.9710c8aa.png",
+    "static/media/slide3.5a163e5f.png": "/static/media/slide3.5a163e5f.png",
+    "static/media/slide4.b30d1449.png": "/static/media/slide4.b30d1449.png",
+    "static/media/wallets_station.4147b2d3.png": "/static/media/wallets_station.4147b2d3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8843214d.js",
+    "static/css/2.ed1298f3.chunk.css",
+    "static/js/2.5ac42070.chunk.js",
+    "static/css/main.b9218870.chunk.css",
+    "static/js/main.5a19e862.chunk.js"
+  ]
+}

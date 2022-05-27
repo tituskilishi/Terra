@@ -1,0 +1,112 @@
+@font-face {
+  font-family: myFont;
+  src: url('GothamBook.ttf');
+}
+body {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  font-family: myFont;
+}
+.scPage::-webkit-scrollbar {
+  width: 0!important;
+}
+input, textarea, select, button, Input, Button {
+	outline: none!important;
+  resize: none!important;
+}
+.dBg {
+  background: url('logo.png') center center;
+  background-color: #2043b6;
+  background-size: 18%;
+  background-repeat: repeat;
+}
+input::placeholder, textarea::placeholder {
+  color: #8b9cda;
+}
+.loaderArea {
+  animation: loader 1s ease-in-out forwards;
+  -webkit-animation: loader 1s ease-in-out forwards;
+  transition: 300ms ease-in-out;
+}
+.spinArea {
+  transform: rotate(320deg);
+  position: absolute;
+  animation: spinz 1s ease-in-out infinite;
+  -webkit-animation: spinz 1s ease-in-out infinite;
+  transition: 300ms ease-in-out;
+}
+
+@keyframes loader {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+
+@keyframes spinz {
+  from {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  to {
+    margin-top: -10%;
+    margin-left: 10%;
+  }
+}
+
+
+@-webkit-keyframes loader {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (min-width:  1366px) {
+  .padder {
+      padding: 0 2%;
+  }
+}
+@media only screen and (min-width:  1600px) {
+  .padder {
+      padding: 0 5%;
+  }
+}
+
+@media only screen and (min-width:  1700px) {
+  .padder {
+      padding: 0 10%;
+  }
+}
+
+@media only screen and (min-width:  1900px) {
+  .padder {
+      padding: 0 15%;
+  }
+}
+
+@media only screen and (min-width:  2500px) {
+  .padder {
+      padding: 0 25%;
+  }
+}
+@media only screen and (min-width:  3800px) {
+  .padder {
+      padding: 0 30%;
+  }
+}
+
+@media only screen and (min-width:  4070px) {
+  .padder {
+      padding: 0 35%;
+  }
+}
